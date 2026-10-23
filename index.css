@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navegador{
+    padding: 20px 40px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.titulo_principal {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.secciones a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
