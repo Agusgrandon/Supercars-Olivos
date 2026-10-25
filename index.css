@@ -43,7 +43,7 @@
     font-weight: 300;
     font-style: normal;
 }
-/* seccion principal */
+/* seccion principal main */
 .portada {
     width: 100%;
     min-height: 600px;
@@ -135,8 +135,47 @@
     background-color: white;
     color: black;
 }
-
-
+/* footer */
+.footer-principal {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 45px 5%;
+    box-sizing: border-box;
+}
+.columna-footer {
+    flex: 1;
+    min-width: 0;
+}
+.columna-footer h3 {
+    font-size: 16px;
+    margin: 0 0 25px;
+    font-weight: 700;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+.columna-footer p {
+    font-size: 11px;
+    line-height: 1.6;
+    margin: 0 0 15px;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+.columna-footer a {
+    color: white;
+    text-decoration: none;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+.columna-footer a:hover {
+    color: #bdbdbd;
+}
+.redes-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 11px;
+}
 /* responsive */
 @media (max-width: 600px) {
     .titulo_principal {
