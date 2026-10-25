@@ -16,22 +16,43 @@ const autosNobles = [
 {nombre: "Volkswagen Golf", imagen: "assets/nobles-y-deportivos/volkswagen-golf.png"},
 ];
 
-
 function mostrarAutosPremium(){
     const contenedorPremium = document.getElementById("superdeportivos");
     let htmlCardPremium = "";
 
-    autosPremium.forEach(auto =>{
+    autosPremium.forEach(autoP =>{
         htmlCardPremium += `
             <div class="card">
-                <img src="${auto.imagen}" alt="${auto.nombre}">
-                <h3>${auto.nombre}</h3>
+                <img src="${autoP.imagen}" alt="${autoP.nombre}">
+                <h3>${autoP.nombre}</h3>
                 
             </div>
         `;
     });
-
     contenedorPremium.innerHTML = htmlCardPremium;
 }
 
-mostrarAutosPremium();
+function mostrarAutosNobles(){
+    const contenedorNobles = document.getElementById("nobles");
+    console.log(contenedorNobles);
+    let htmlCardNobles = "";
+
+    autosNobles.forEach(autoN =>{
+        htmlCardNobles += `
+            <div class="card">
+                <img src="${autoN.imagen}" alt="${autoN.nombre}">
+                <h3>${autoN.nombre}</h3>
+                
+            </div>
+        `;
+    });
+    contenedorNobles.innerHTML = htmlCardNobles;
+}
+
+if (document.getElementById("superdeportivos")) {
+    mostrarAutosPremium();
+}
+
+if (document.getElementById("nobles")) {
+    mostrarAutosNobles();
+}
