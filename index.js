@@ -41,7 +41,7 @@ function mostrarAutosNobles(){
         htmlCardNobles += `
             <div class="card">
                 <img src="${autoN.imagen}" alt="${autoN.nombre}">
-                <h3>${autoN.nombre}</h3>
+                <h3 class="nombreAuto">${autoN.nombre}</h3>
                 <a href="./visitanos.html" class="botonCotizar">Cotizar auto</a>
             </div>
         `;
