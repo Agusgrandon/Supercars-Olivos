@@ -354,6 +354,7 @@
     .formulario-cotizacion label {
         font-size: 13px;
         margin-top: 8px;
+        font-family: "Encode Sans Expanded", sans-serif;
     }
     .formulario-cotizacion input {
         width: 100%;
