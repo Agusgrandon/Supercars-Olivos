@@ -57,6 +57,28 @@
     max-width: 800px;
     color: black
 }
+.portadaTres {
+    width: 100%;
+    min-height: 600px;
+
+    background-image: url("./assets/chevblanco.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 50px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contenido-portadaTres {
+    width: 100%;
+    max-width: 800px;
+    color: black
+}
 h2{
     margin-top: 100px;
     margin-right: 500;
