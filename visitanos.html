@@ -1,77 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- fuente -->
-    <link rel="icon" href="./assets/icono.png">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./autos.css">
+    <link rel="icon" href="./assets/icono.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./autos.css" />
     <title>Supercars Olivos / conocenos</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="navegador">
-        <nav class="menu">
-            <ul class="opciones">
-                <li><a href="./premiums.html">Superdeportivos</a></li>
-                <li><a href="./nobles.html">Deportivos</a></li>
-            </ul>
-            <h1 class="titulo_principal"><a href="./index.html">Supercars Olivos</a></h1>
-            <a href="./visitanos.html" class="visitarnos">Visitanos</a>
-        </nav>
+      <nav class="menu">
+        <ul class="opciones">
+          <li><a href="./premiums.html">Superdeportivos</a></li>
+          <li><a href="./nobles.html">Deportivos</a></li>
+        </ul>
+        <h1 class="titulo_principal">
+          <a href="./index.html">Supercars Olivos</a>
+        </h1>
+        <a href="./visitanos.html" class="visitarnos">Visitanos</a>
+      </nav>
     </header>
 
-    <main>
-        <section class="seccion-cotizacion">
-            <div class="encabezado-cotizacion">
-                <h2>SOLICTAR COTIZACION</h2>
-                <p class="aclaracion">Rellena el siguiente formulario para recibir más información sobre tu próximo
-                    Chevrolet Corvette</p>
-                <p> Los campos marcados con un * son obligatorios.</p>
-                <form action="" class="formulario-cotizacion">
-                    <div class="campo">
-                        <label for="modelo">¿Qué modelo te interesa? *</label>
-                        <input type="text" id="modelo" name="modelo">
-                    </div>
-                    <div class="campo">
-                        <label for="fecha">Fecha estimada de compra *</label>
-                        <input type="date" id="fecha" name="fecha">
-                    </div>
-                    <div class="campo">
-                        <label for="nombre">Nombre *</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre">
-                    </div>
-                    <div class="campo">
-                        <label for="apellido">Apellido *</label>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido">
-                    </div>
-                    <div class="campo">
-                        <label for="mail">Correo electronico *</label>
-                        <input type="email" name="" id="">
-                    </div>
-                    <div class="campo">
-                        <label for="telefono">Telefono de contacto</label>
-                        <input type="number" name="" id="">
-
-                    </div>
-
-                </form>
-
+    <main class="seccion-visitanos">
+      <section class="seccion-cotizacion">
+        <div class="encabezado-cotizacion">
+          <h2>SOLICTAR COTIZACION</h2>
+          <p class="aclaracion">
+            Rellena el siguiente formulario para recibir más información sobre
+            tu próximo Chevrolet Corvette
+          </p>
+          <p>Los campos marcados con un * son obligatorios.</p>
+          </div>
+          <form action="" class="formulario-cotizacion">
+            <div class="campo">
+              <label for="modelo">¿Qué modelo te interesa? *</label>
+              <input type="text" id="modelo" name="modelo" />
             </div>
-
-        </section>
+            <div class="campo">
+              <label for="fecha">Fecha estimada de compra *</label>
+              <input type="date" id="fecha" name="fecha" />
+            </div>
+            <div class="campo">
+              <label for="nombre">Nombre *</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ingresá tu nombre"
+              />
+            </div>
+            <div class="campo">
+              <label for="apellido">Apellido *</label>
+              <input
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="Ingresá tu apellido"
+              />
+            </div>
+            <div class="campo">
+              <label for="mail">Correo electronico *</label>
+              <input type="email" name="" id="" />
+            </div>
+            <div class="campo">
+              <label for="telefono">Telefono de contacto</label>
+              <input type="number" name="" id="" />
+            </div>
+            <button>SOLICITAR COTIZACION</button>
+          </form>
+      </section>
     </main>
 
-    <footer class="">
-    </footer>
-</body>
-
+    <footer class=""></footer>
+  </body>
 </html>
