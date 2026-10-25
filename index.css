@@ -245,4 +245,17 @@
         font-size: 12px;
         padding: 10px 15px;
     }
+    /* footer */
+    .footer-principal {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+    .columna-footer {
+        width: 100%;
+    }
+    .columna-footer h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
 }
