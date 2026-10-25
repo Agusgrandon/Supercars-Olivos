@@ -1,4 +1,4 @@
-/* cards de html */
+/* cards del html */
 .contenedorCard{
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@
 .botonCotizar:hover {
     background-color: #333;
 }
-/* main */
+/* main / fotos de las secciones */
 .portadaDos {
     width: 100%;
     min-height: 600px;
@@ -88,7 +88,7 @@ h2{
     font-family: "Orbitron", sans-serif;
     text-align: center;
 }
-
+/* responsive de las cards y el H2 de las secciones */
 @media (max-width: 600px) {
 .contenedorCard {
         flex-direction: column;

@@ -55,6 +55,9 @@
     font-weight: 300;
     font-style: normal;
 }
+.opciones a:hover{
+    color: #94918f;
+}
 /* seccion principal main */
 .portada {
     width: 100%;
@@ -246,13 +249,23 @@
 }
 /* responsive */
 @media (max-width: 600px) {
+    /* header */
+    .navegador {
+        padding: 15px;
+    }
     .titulo_principal {
         font-size: 20px;
     }
-
+    .marca {
+        justify-content: center;
+        gap: 10px;
+    }
+    .marca img {
+        width: 40px;
+        height: 40px;
+    }
     .menu {
         flex-direction: column;
-        justify-content: center;
         gap: 20px;
     }
 
@@ -262,13 +275,8 @@
         gap: 15px;
     }
 
-    .opciones a,
-    .visitarnos {
-        font-size: 14px;
-    }
-
-    .visitarnos {
-        text-align: center;
+    .opciones a{
+        font-size: 12px;
     }
     /* main */
     .portada {

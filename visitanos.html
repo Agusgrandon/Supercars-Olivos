@@ -1,89 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet"/>
-    <!-- boot -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="icon" href="./assets/icono.png" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./autos.css" />
-    <title>Supercars Olivos / conocenos</title>
-  </head>
 
-  <body>
-    <header class="navegador">
-        <nav class="menu">
-            <div class="marca">
-                <a href="./index.html"><img src="./assets/icono.png" alt="Logo de Supercars Olivos"></a>
-                <h1 class="titulo_principal"><a href="./index.html">Supercars Olivos</a></h1>
-            </div>
-            <ul class="opciones">
-                <li><a href="./premiums.html">Superdeportivos</a></li>
-                <li><a href="./nobles.html">Deportivos</a></li>
-                <li><a href="./visitanos.html" class="visitarnos">Solicita tu cotizacion</a></li>
-            </ul>
-        </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- fuente google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet" />
+  <!-- links css y foto del icono -->
+  <link rel="icon" href="./assets/icono.png" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./autos.css" />
+  <title>Supercars Olivos / conocenos</title>
+</head>
 
-    <main>
-      <section class="formulario-cotizacion">
-        <h2>SOLICITAR COTIZACION</h2>
-        <p class="aclaracion">Rellena el siguiente formulario para recibir más información sobre tu próximo auto</p>
-        <form action="">
-          <label for="modelo">¿Qué modelo te interesa?</label>
-          <input type="text" name="modelo" id="modelo">
+<body>
+  <header class="navegador">
+    <nav class="menu">
+      <div class="marca">
+        <a href="./index.html"><img src="./assets/icono.png" alt="Logo de Supercars Olivos"></a>
+        <h1 class="titulo_principal"><a href="./index.html">Supercars Olivos</a></h1>
+      </div>
+      <ul class="opciones">
+        <li><a href="./premiums.html">Superdeportivos</a></li>
+        <li><a href="./nobles.html">Deportivos</a></li>
+        <li><a href="./visitanos.html" class="visitarnos">Solicitar cotizacion</a></li>
+      </ul>
+    </nav>
+  </header>
 
-          <label for="fecha">Fecha estimada de compra</label>
-          <input type="date" name="fecha" id="fecha">
+  <main>
+    <section class="formulario-cotizacion">
+      <h2>SOLICITAR COTIZACION</h2>
+      <p class="aclaracion">Rellena el siguiente formulario para recibir más información sobre tu próximo auto</p>
+      <form action="">
+        <label for="modelo">¿Qué modelo te interesa?</label>
+        <input type="text" name="modelo" id="modelo">
 
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre">
+        <label for="fecha">Fecha estimada de compra</label>
+        <input type="date" name="fecha" id="fecha">
 
-          <label for="apellido">Apellido</label>
-          <input type="text" name="apellido" id="apellido">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
 
-          <label for="mail">Correo electronico</label>
-          <input type="email" name="mail" id="">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
 
-          <label for="telefono">Telefono de contacto</label>
-          <input type="text" name="telefono" id="telefono">
+        <label for="mail">Correo electronico</label>
+        <input type="email" name="mail" id="">
 
-          <button type="submit">SOLICITAR COTIZACION</button>
-        </form>
+        <label for="telefono">Telefono de contacto</label>
+        <input type="text" name="telefono" id="telefono">
 
-      </section>
-    </main>
+        <button type="submit">SOLICITAR COTIZACION</button>
+      </form>
 
-        <footer class="footer-principal">
-        <div class="columna-footer">
-            <h3>ATENCION AL CLIENTE</h3>
-            <p>VENTAS +54 11 5278 3267</p>
-            <p>POSVENTA 0800 555 666</p>
-            <p>CLIENTE.ARG@SUPERCARSOLIVOS.COM</p>
-        </div>
+    </section>
+  </main>
 
-        <div class="columna-footer">
-            <h3>INICIA TU COMPRA</h3>
-            <p><a href="./visitanos.html">TEST DRIVE</a></p>
-            <p><a href="./index.html">EXPLORA NUESTROS MODELOS</a></p>
-            <p><a href="./visitanos.html">LOCALIZA UN DISTRIBUIDOR</a></p>
-        </div>
+  <footer class="footer-principal">
+    <div class="columna-footer">
+      <h3>ATENCION AL CLIENTE</h3>
+      <p>VENTAS +54 11 5278 3267</p>
+      <p>POSVENTA 0800 555 666</p>
+      <p>CLIENTE.ARG@SUPERCARSOLIVOS.COM</p>
+    </div>
 
-        <div class="columna-footer">
-            <h3>SEGUINOS</h3>
-            <div class="redes-footer">
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://x.com/" target="_blank">X</a>
-            </div>
-        </div>
-    </footer>
-  </body>
+    <div class="columna-footer">
+      <h3>INICIA TU COMPRA</h3>
+      <p><a href="./visitanos.html">TEST DRIVE</a></p>
+      <p><a href="./index.html">EXPLORA NUESTROS MODELOS</a></p>
+      <p><a href="./visitanos.html">LOCALIZA UN DISTRIBUIDOR</a></p>
+    </div>
+
+    <div class="columna-footer">
+      <h3>SEGUINOS</h3>
+      <div class="redes-footer">
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://x.com/" target="_blank">X</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
