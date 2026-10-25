@@ -311,15 +311,50 @@
         width: 100%;
     }
     .columna-footer h3 {
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 15px;
     }
     .columna-footer p {
-        font-size: 12px;
+        font-size: 9px;
         margin-bottom: 12px;
     }
     .redes-footer {
         gap: 12px;
+        font-size: 9px;
+    }
+    /* formulario */
+    .formulario-cotizacion {
+        width: 100%;
+        max-width: 100%;
+        margin: 25px auto;
+        padding: 15px;
+    }
+    .formulario-cotizacion h2 {
+        font-size: 21px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+    }
+    .aclaracion {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .formulario-cotizacion form {
+        gap: 6px;
+    }
+    .formulario-cotizacion label {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .formulario-cotizacion input {
+        width: 100%;
+        padding: 11px;
+        font-size: 14px;
+    }
+    .formulario-cotizacion button {
+        width: 100%;
+        padding: 13px 10px;
         font-size: 12px;
+        margin-top: 15px;
     }
 }
